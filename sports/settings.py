@@ -18,6 +18,8 @@ DEBUG = True
 # Application definition
 
 INSTALLED_APPS = [
+    'finder.apps.FinderConfig',
+    'rest_framework',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
